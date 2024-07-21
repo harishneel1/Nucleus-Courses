@@ -12,7 +12,7 @@ import Buttons from './components/Buttons/Buttons';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <App />,
   },
   {
     path: "/exercises/buttons",
